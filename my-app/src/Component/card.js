@@ -85,7 +85,7 @@ const ProfileComponent = () => {
             </p>
           </div>
         </div>
-      </div>P
+      </div>
     </section>
   );
 };

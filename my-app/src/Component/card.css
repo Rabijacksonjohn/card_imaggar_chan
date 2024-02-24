@@ -32,10 +32,12 @@ body {
   padding: 10px;
   text-align: center;
   background: #ffffff;
+  box-shadow: 10px 10px 10px 0px rgba(128, 128, 128, 0.659); 
 }
 
 .box1 {
   margin-top: 10px;
+
 }
 
 .content {
@@ -211,3 +213,15 @@ h5 {
         height: 60px;
     }
 }
+.cardbox{
+  width: auto; 
+  height: 400px; 
+  overflow: auto; 
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  padding: 10px; 
+  background-color: white;
+  padding: 20px;
+}
+.cardbox::-webkit-scrollbar {
+  display: none;}

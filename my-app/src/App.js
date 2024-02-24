@@ -1,9 +1,9 @@
 import React from 'react'
-import Card from './Component/card'
+import Cardbox from './Component/cardbox'
 export default function App() {
   return (
     <div>
-       <Card/>
+       <Cardbox/>
     </div>
   )
 }
